@@ -4,5 +4,5 @@ const names = ['Edoardo', 'Simone', 'Francesco'];
 // Risultato: 'Edoardo', 'Simone', 'Francesco'
 
 const valoreRestituito = names.forEach((name) => {
-    console.log(name)
+    console.log(name);
 });
