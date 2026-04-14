@@ -21,3 +21,13 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+let valoreRestituito = '';
+
+students.forEach((student) => {
+  if (student.name === 'Marco Lanci') {
+    valoreRestituito = student.class;
+  };
+});
+
+console.log(valoreRestituito);
